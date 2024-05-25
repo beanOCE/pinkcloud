@@ -5,7 +5,7 @@
     "version": "2024.05.25",
     "permissions": [],
     "icons": {
-      "128": "darklogo.png"
+      "128": "pinkcloud.png"
     },
     "background": {
       "service_worker": "background.js"
@@ -24,7 +24,7 @@
     "web_accessible_resources": [
       {
         "resources": [
-          "css_dark.css"
+          "css_darkpink.css"
         ],
         "matches": [
           "*://*/*"
