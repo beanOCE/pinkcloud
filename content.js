@@ -5,7 +5,7 @@ function ensureDarkStyle() {
         link.id = 'darkstyle_css';
         link.rel = 'stylesheet';
         link.type = 'text/css';
-        link.href = chrome.runtime.getURL('css_dark.css');
+        link.href = chrome.runtime.getURL('css_darkpink.css');
         link.media = 'all';
         head.appendChild(link);
     }
@@ -13,4 +13,3 @@ function ensureDarkStyle() {
 
 // Run when the DOM is fully loaded
 document.addEventListener('DOMContentLoaded', ensureDarkStyle);
-    
