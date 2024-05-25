@@ -1,0 +1,36 @@
+{
+    "manifest_version": 3,
+    "name": "PinkCloud",
+    "description": "SoundCloud Dark Theme, with a Pink twist",
+    "version": "2024.05.25",
+    "permissions": [],
+    "icons": {
+      "128": "darklogo.png"
+    },
+    "background": {
+      "service_worker": "background.js"
+    },
+    "content_scripts": [
+      {
+        "matches": [
+          "https://soundcloud.com/*"
+        ],
+        "js": [
+          "content.js"
+        ],
+        "run_at": "document_start"
+      }
+    ],
+    "web_accessible_resources": [
+      {
+        "resources": [
+          "css_dark.css"
+        ],
+        "matches": [
+          "*://*/*"
+        ]
+      }
+    ],
+    "update_url": "https://clients2.google.com/service/update2/crx"
+  }
+  
