@@ -12,6 +12,9 @@ body {
 .sc-classic .playbackTimeline__timePassed {
     color: #333333 !important;
 }
+.sc-classic .playbackTimeline__progressBackground {
+    color:#000
+}
 
 .sc-classic .playbackTimeline__progressWrapper {
     color: #333 !important;
@@ -142,6 +145,15 @@ a.playbackSoundBadge__lightLink:focus {
 /*Following Icon*/
 .sc-classic .sc-button-follow.sc-button-selected.m-boldIcon:before {
     background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCI+PHBhdGggZmlsbD0iI2Y2OGNmNiIgZmlsbC1ydWxlPSJub256ZXJvIiBkPSJNMTAuNSA1YzMuMjUgMCAzLjk0NCAzLjIzNiAyLjUgNyAzLjcxNyAxLjUzNCA0IDQuODUgNCA2SDRjMC0xLjE1LjI4My00LjQ2NiA0LTYtMS40NDUtMy43NzUtLjc1LTcgMi41LTd6bTEwLjc5My0uNzA3bDEuNDE0IDEuNDE0TDE4IDEwLjQxNGwtMi43MDctMi43MDcgMS40MTQtMS40MTRMMTggNy41ODV6Ii8+PC9zdmc+) !important;
+}
+
+/*Big Follow*/
+.sc-button-medium.sc-button-selected.sc-button-follow:before {
+    background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCI+PHBhdGggZmlsbD0iI2Y2OGNmNiIgZmlsbC1ydWxlPSJub256ZXJvIiBkPSJNMTAuNSA1YzMuMjUgMCAzLjk0NCAzLjIzNiAyLjUgNyAzLjcxNyAxLjUzNCA0IDQuODUgNCA2SDRjMC0xLjE1LjI4My00LjQ2NiA0LTYtMS40NDUtMy43NzUtLjc1LTcgMi41LTd6bTEwLjc5My0uNzA3bDEuNDE0IDEuNDE0TDE4IDEwLjQxNGwtMi43MDctMi43MDcgMS40MTQtMS40MTRMMTggNy41ODV6Ii8+PC9zdmc+) !important;
+}
+
+.sc-button-report:before {
+    filter: invert(1) !important;
 }
 
 /*Liked Icon*/
