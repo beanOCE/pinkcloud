@@ -1,5 +1,2 @@
-- Waveform
-- Long and Short buttons
-- Ellipses on playing song
-- Small follow button on now playing
+- Repeat buttons, track and album/playlist
 - Queue
