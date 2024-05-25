@@ -6,55 +6,46 @@ body {
 }
 .playControls__inner,
 .playControls__bg {
-    background-color: #f68cf6 !important;
+    background-color: #121414 !important;
 }
-
-.sc-classic .playbackTimeline__timePassed {
-    color: #333333 !important;
-}
-
-.sc-classic .playbackTimeline__progressWrapper {
-    color: #333 !important;
-}
-
-.sc-classic .playbackTimeline__progressHandle {
-    color: #333 !important;
-}
-
-.soundTitle__username, .soundTitle__secondary {
-    color: white !important;
-}
-
-.sc-link-primary, .soundTitle__title, .sc-link-dark, .sc-text-h4 {
-    color: #f68cf6 !important;
-}
-
-.sc-label {
-    color: #f68cf6 !important;
-    background-color: #f68cf6 !important;
-}
-
-.sc-ministats-sounds {
+.playControl {
     filter: invert(100%) !important;
 }
-
-.sc-button-copylink, .sc-button-upload, .sc-button-distribute {
-    color: white !important;
+.skipControl__previous {
+    filter: invert(100%) !important;
 }
-
-.soundTitle__tag, .sc-tag-small {
-    background-color: #f68cf6 !important;
+.skipControl__next {
+    filter: invert(100%) !important;
 }
-
-.quotaMeter__percentage {
-    color: #f68cf6 !important;
+.shuffleControl {
+    filter: invert(100%) !important;
 }
-
-.quotaMeter__minutesUsed {
-    background-color: #f68cf6 !important;
-    background: linear-gradient(90deg, #c36fdc, #f68cf6) !important;
+.repeatControl.m-none {
+    filter: invert(100%) !important;
 }
-
+.volume[data-level='6'] .volume__button,
+.volume[data-level='7'] .volume__button,
+.volume[data-level='8'] .volume__button,
+.volume[data-level='9'] .volume__button,
+.volume[data-level='10'] .volume__button {
+    filter: invert(100%) !important;
+}
+.volume[data-level='1'] .volume__button,
+.volume[data-level='2'] .volume__button,
+.volume[data-level='3'] .volume__button,
+.volume[data-level='4'] .volume__button,
+.volume[data-level='5'] .volume__button {
+    filter: invert(100%) !important;
+}
+.volume.muted .volume__button {
+    filter: invert(100%) !important;
+}
+.volume__button {
+    filter: invert(100%) !important;
+}
+.playbackTimeline__duration {
+    filter: invert(100%) !important;
+}
 .l-container {
     background-color: #161719 !important;
 }
@@ -87,6 +78,9 @@ a.playbackSoundBadge__lightLink:focus {
 .soundBadge .soundTitle__username {
     filter: invert(100%) !important;
 }
+a.sc-link-dark {
+    filter: invert(100%) !important;
+}
 .soundContext__line .sc-ministats {
     color: #fff !important
 }
@@ -107,18 +101,6 @@ a.playbackSoundBadge__lightLink:focus {
     color: #fff !important;
     border: 0px solid #fff !important
 }
-
-.sc-status-icon-verified {
-    background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxOCIgaGVpZ2h0PSIxOCI+PGcgZmlsbD0ibm9uZSIgZmlsbC1ydWxlPSJldmVub2RkIj48cGF0aCBmaWxsPSIjZjY4Y2Y2IiBmaWxsLXJ1bGU9Im5vbnplcm8iIGQ9Ik05IDE4QTkgOSAwIDEwOC45OTktLjAwMSA5IDkgMCAwMDkgMTh6Ii8+PHBhdGggc3Ryb2tlPSIjRkZGIiBzdHJva2Utd2lkdGg9IjIiIGQ9Ik00LjEzIDguNzY3bDMuMDg2IDMuMDg3IDYuNjU2LTYuNjU2Ii8+PC9nPjwvc3ZnPg==);
-}
-
-.sc-button-small.sc-button-copylink:before {
-    filter: invert(100%) !important;
-}
-.sc-button-small.sc-button-upload:before {
-    filter: invert(100%) !important;
-}
-
 .sc-button-small.sc-button-share:before {
     filter: invert(100%) !important;
 }
@@ -159,11 +141,7 @@ a.playbackSoundBadge__lightLink:focus {
 }
 .commentForm__input {
     background: #111214;
-    border: 1px solid #333033 !important
-}
-.commentForm__submitButton {
-    filter: invert(0%) !important;
-    background-color: #f68cf6 !important;
+    border: 1px solid #303133 !important
 }
 textarea,
 select,
@@ -515,7 +493,7 @@ input {
     background-color: #191919 !important;
 }
 .commentPopover.darkText .commentPopover__body {
-    color: #f68cf6 !important;
+    color: #8d8d8d !important;
 }
 .paging-eof {
     filter: invert(90.6%) !important;
@@ -751,7 +729,7 @@ a.sc-link-light {
 .commentItem__body,
 .commentItem__replyButton,
 .commentItem__usernameLink {
-    color: #c36fdc !important;
+    color: #c3c3c3 !important;
 }
 /*Fixed black text in comments to white*/
 :root {
