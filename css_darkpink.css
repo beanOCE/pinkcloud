@@ -32,6 +32,51 @@ body {
     color: white !important;
 }
 
+.sc-classic .header__link.header__goUpsell, .sc-classic .header__link.header__goUpsell_side_by_side_experience, .sc-classic .header__link.header__proUpsell_side_by_side_experience {
+    color: #f68cf6 !important;
+}
+
+.uiEvoButton--isLight, .uiEvoButton:hover.uiEvoButton--isLight, .uiEvoButton:link.uiEvoButton--isLight, .uiEvoButton:visited.uiEvoButton--isLight {
+    filter: invert(1) !important;
+}
+
+.uiEvoButton.uiEvoButton--isIconOnly svg {
+    filter: invert(1) !important;
+}
+
+.sc-classic .volume__sliderHandle {
+    background-color: #f68cf6 !important;
+}
+
+#app > div.playControls.g-z-index-control-bar.m-visible.m-googleCastActive > section > div > div.playControls__elements > div.playControls__volume > div > div.volume__sliderWrapper > div.volume__sliderProgress {
+    background-color: #f68cf6 !important;
+}
+
+#app > div.playControls.g-z-index-control-bar.m-visible.m-googleCastActive > section > div > div.playControls__elements > div.playControls__volume > div > div.volume__sliderWrapper > div.volume__sliderBackground {
+    background-color: #fff !important;
+}
+
+.sc-classic .volume__sliderWrapper {
+    background-color: #000 !important;
+}
+
+button.sc-button-tertiary.sc-ml-1x.commentItem__delete.sc-button.sc-button-medium.sc-button-icon.sc-button-responsive {
+    background-color: #f68cf6 !important;
+}
+
+.creatorLikeInlineLikeIcon {
+    color: #f68cf6 !important;
+}
+
+.commentItem__like {
+    filter: hue-rotate(300deg) !important;
+}
+
+.commentItem__timestampLink, .commentItem__timestampLink:hover, .commentItem__timestampLink:visited {
+    color: #fff !important;
+    background-color: #f68cf6 !important;
+}
+
 /*
 .sc-classic .repeatControl:before {
     background-image: url(data:image/svg+xml;base64;PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCI-PHBhdGggZmlsbD0iIzMzMyIgZD0iTTEyIDhIOWE0IDQgMCAxIDAgMCA4aDZhNCA0IDAgMCAwIDIuMTA0LTcuNDAzbDEuNzctMS4xOC4wMi4wMThBNiA2IDAgMCAxIDE1IDE4SDlBNiA2IDAgMSAxIDkgNmgzVjRsNCAzLTQgM1Y4eiIvPjwvc3ZnPg) !important;
