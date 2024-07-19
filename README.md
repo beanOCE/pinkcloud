@@ -12,5 +12,7 @@
     <br />
     <br />
     <a href="https://chromewebstore.google.com/detail/darkcloud/mjicdmidmifkppilbbcanmnljpffmfmh">Based on Diogo Silva's <i><b>DarkCloud</b></i></a>
+    <br />
+    <a href="https://chromewebstore.google.com/detail/pinkcloud/fjbgpkbiacjfgjhkhgmbclooknggcahp"><i><b>Download Here </b></i></a>
   </p>
 </div>
